@@ -238,6 +238,11 @@
   dependencies:
     "@babel/types" "7.0.0-beta.34"
 
+"@babel/helper-plugin-utils@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.14.5.tgz#5ac822ce97eec46741ab70a517971e443a70c5a9"
+  integrity sha512-/37qQCE3K0vvZKwoK4XU/irIJQdIfCJuhU5eKnNxpFDsOkgFaUAwbv+RYw6eYgsC0E4hS7r5KqGULUogqui0fQ==
+
 "@babel/helper-regex@7.0.0-beta.34":
   version "7.0.0-beta.34"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0-beta.34.tgz#761224365616ef0652491920848fd27cf65f85d2"
@@ -289,6 +294,11 @@
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.12.11.tgz#c9a1f021917dcb5ccf0d4e453e399022981fc9ed"
   integrity sha512-np/lG3uARFybkoHokJUmf1QfEvRVCPbmQeUQpKow5cQ3xWrV9i3rUHodKDJPQfTVX61qKi+UdYk8kik84n7XOw==
+
+"@babel/helper-validator-option@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-option/-/helper-validator-option-7.14.5.tgz#6e72a1fff18d5dfcb878e1e62f1a021c4b72d5a3"
+  integrity sha512-OX8D5eeX4XwcroVW45NMvoYaIuFI+GQpA2a8Gi+X/U/cDUIRsV37qQfF905F0htTRCREQIB4KqPeaveRJUl3Ow==
 
 "@babel/helper-wrap-function@7.0.0-beta.34":
   version "7.0.0-beta.34"
@@ -386,9 +396,12 @@
   version "7.0.0-beta.34"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.0.0-beta.34.tgz#ed832f9f60b7c2eb1318528bf96d0e29068d7fce"
 
-"@babel/plugin-syntax-flow@7.0.0-beta.34":
-  version "7.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-flow/-/plugin-syntax-flow-7.0.0-beta.34.tgz#679373bd94f4d2df414ba26cb2fee27ece2efdc6"
+"@babel/plugin-syntax-flow@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-flow/-/plugin-syntax-flow-7.14.5.tgz#2ff654999497d7d7d142493260005263731da180"
+  integrity sha512-9WK5ZwKCdWHxVuU13XNT6X73FGmutAXeor5lGFq6qhOFtMFUF4jkbijuyUdZZlpYq6E2hZeZf/u3959X9wsv0Q==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-object-rest-spread@7.0.0-beta.34":
   version "7.0.0-beta.34"
@@ -447,11 +460,13 @@
   dependencies:
     "@babel/helper-builder-binary-assignment-operator-visitor" "7.0.0-beta.34"
 
-"@babel/plugin-transform-flow-strip-types@7.0.0-beta.34":
-  version "7.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-flow-strip-types/-/plugin-transform-flow-strip-types-7.0.0-beta.34.tgz#7f5bd51ea813ee466c80372bbfefa0c851fdcf98"
+"@babel/plugin-transform-flow-strip-types@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-flow-strip-types/-/plugin-transform-flow-strip-types-7.14.5.tgz#0dc9c1d11dcdc873417903d6df4bed019ef0f85e"
+  integrity sha512-KhcolBKfXbvjwI3TV7r7TkYm8oNXHNBqGOy6JDVwtecFaRoKYsUUqJdS10q0YDKW1c6aZQgO+Ys3LfGkox8pXA==
   dependencies:
-    "@babel/plugin-syntax-flow" "7.0.0-beta.34"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/plugin-syntax-flow" "^7.14.5"
 
 "@babel/plugin-transform-for-of@7.0.0-beta.34":
   version "7.0.0-beta.34"
@@ -588,11 +603,14 @@
     invariant "^2.2.2"
     semver "^5.3.0"
 
-"@babel/preset-flow@7.0.0-beta.34":
-  version "7.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@babel/preset-flow/-/preset-flow-7.0.0-beta.34.tgz#4ec87fa9348a743359723a83fb3d249175ff9e2a"
+"@babel/preset-flow@7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/preset-flow/-/preset-flow-7.14.5.tgz#a1810b0780c8b48ab0bece8e7ab8d0d37712751c"
+  integrity sha512-pP5QEb4qRUSVGzzKx9xqRuHUrM/jEzMqdrZpdMA+oUCRgd5zM1qGr5y5+ZgAL/1tVv1H0dyk5t4SKJntqyiVtg==
   dependencies:
-    "@babel/plugin-transform-flow-strip-types" "7.0.0-beta.34"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/helper-validator-option" "^7.14.5"
+    "@babel/plugin-transform-flow-strip-types" "^7.14.5"
 
 "@babel/template@7.0.0-beta.31":
   version "7.0.0-beta.31"
