@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "eslint": "~3.9.1",
-    "mocha": "^6.0.2"
+    "mocha": "^9.0.2"
   },
   "license": "MIT",
   "repository": {
