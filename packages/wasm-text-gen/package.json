@@ -32,6 +32,6 @@
     "@babel/types": "^7.0.0-beta.40",
     "@webassemblyjs/ast": "1.11.1",
     "@webassemblyjs/wasm-parser": "1.11.1",
-    "commander": "^2.14.1"
+    "commander": "^8.0.0"
   }
 }
