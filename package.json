@@ -26,7 +26,7 @@
     "babel-eslint": "8.0.3",
     "babel-plugin-mamacro": "^0.0.7",
     "chai": "4.2.0",
-    "eslint": "4.12.1",
+    "eslint": "7.30.0",
     "eslint-config-prettier": "4.2.0",
     "eslint-plugin-flowtype": "3.7.0",
     "eslint-plugin-flowtype-errors": "3.5.0",
