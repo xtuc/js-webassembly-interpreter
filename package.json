@@ -22,7 +22,7 @@
     "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.34",
     "@babel/preset-env": "7.0.0-beta.34",
     "@babel/preset-flow": "7.0.0-beta.34",
-    "@babel/template": "7.4.4",
+    "@babel/template": "7.14.5",
     "babel-eslint": "8.0.3",
     "babel-plugin-mamacro": "^0.0.7",
     "chai": "4.2.0",
